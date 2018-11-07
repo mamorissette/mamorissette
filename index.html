@@ -132,12 +132,40 @@ Ses actions</p>
 </div>
 </div>
 <footer>Tous droits réservés 2018 - Fondation Cédrika Provencher</footer>
-<!-- Modal Benevole
+<!-- Modal Benevole-->
 <div class="modal fade" id="Benevole" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Votre aide est important</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+</div>
+<div class="modal-body">
+<form action="/">
+  <div class="form-group">
+    <label for="pwd">Nom complet:</label>
+    <input type="text" class="form-control" id="name">
+    <label for="email">Courriel:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Se souvenir de moi
+    </label>
+  </div>
+  <button type="submit" class="btn btn-danger">S'impliquer maintenant</button>
+</form>
+</div>   </div>
+  </div>
+</div>
+<!-- Modal Infolettre-->
+<div class="modal fade" id="Infolettre" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Votre aide est important</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Pour rester informé</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -155,36 +183,12 @@ Ses actions</p>
       <input class="form-check-input" type="checkbox"> Se souvenir de moi
     </label>
   </div>
-  <button type="submit" class="btn btn-primary">S'impliquer maintenant</button>
+  <button type="submit" class="btn btn-danger">S'inscrire maintenant</button>
 </form>
-</div>
-<!-- Modal InfoLettre
-<div class="modal fade" id="Benevole" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Votre aide est important</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-         <form action="/">
-  <div class="form-group">
-    <label for="pwd">Nom complet:</label>
-    <input type="text" class="form-control" id="name">
-    <label for="email">Courriel:</label>
-    <input type="email" class="form-control" id="email">
-   </div>
-  <div class="form-group form-check">
-    <label class="form-check-label">
-      <input class="form-check-input" type="checkbox"> Se souvenir de moi
-    </label>
+</div>   </div>
   </div>
-  <button type="submit" class="btn btn-primary">S'impliquer maintenant</button>
-</form>
 </div>
- Modal Don-->
+ <!--Modal Don-->
 <div class="modal fade" id="Dons" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -199,12 +203,13 @@ Ses actions</p>
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="543YCRDU2L3Y8">
 <input type="image" src="http://fondationcedrika.org/logo.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
-<button type="submit" class="btn btn-primary">Donner maintenant</button>
+<button type="submit" class="btn btn-danger">Donner maintenant</button>
 </form>
 </div>
-<!-- Modal Fin-->
+
     </div>
   </div>
 </div>
+<!-- Modal Fin-->
 </body>
 </html>
