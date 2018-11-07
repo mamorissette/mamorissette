@@ -39,19 +39,46 @@ hr{
 
 .caption {
   position: absolute;
-  right: 0;
-  top: 25%;
-  width: 50%;
+  right: 10%;
+  bottom: 25%;
+  max-width: 400px;
   text-align: center;
   color: #000;
 }
 
-.caption span.border {
-  background-color: #111;
-  color: #fff;
+.texteEnColomnes{
+    -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+      -webkit-column-gap: 3em;
+      -moz-column-gap: 3em;
+      column-gap: 3em;
+      margin-bottom: 20px;
+      text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: .5rem;
+}
+
+header , header a, header a:hover, header h3{
+color : white ;
+font-weight: bolder ;
+text-decoration: none;
+text-transform: uppercase;
+text-align: center; 
+}
+header{
+  position: fixed;
+  z-index: 99;}
+.caption div.border {
+  background-color: #fff;
+  color: #111;
   padding: 18px;
   font-size: 25px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
+  border-radius: 10px; 
 }
 
 h3 {
