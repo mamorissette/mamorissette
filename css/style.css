@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem;
 }
 
-header , header a, header a:hover, header h4{
+header , header a, header a:hover, header h3{
 color : white ;
 font-weight: bolder ;
 text-decoration: none;
